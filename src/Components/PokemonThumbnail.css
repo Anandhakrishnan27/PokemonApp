@@ -1,0 +1,44 @@
+.thumb-container {
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 3px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    max-width: 300px;
+    margin: 0 auto;
+}
+
+.thumb-container:hover {
+    transform: translateY(-5px);
+}
+
+.thumb-container img {
+    width: 120px;
+    height: 120px;
+}
+
+.thumb-container h3 {
+    margin: 10px 0 5px;
+    color: #333;
+    text-transform: capitalize;
+}
+
+.thumb-container small {
+    color: #777;
+}
+
+.info-btn {
+    margin-top: 10px;
+    padding: 5px 10px;
+    background-color: #3c5aa6;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.info-btn:hover {
+    background-color: #2a3f75;
+}
